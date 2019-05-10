@@ -1,0 +1,20 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "first.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon third.js",
+    "test": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0",
+    "mongoose": "^5.5.7",
+    "sscanf": "^0.8.0"
+  }
+}
