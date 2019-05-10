@@ -79,6 +79,6 @@ class Level3{
 }
 
 let instance=new Level3('input3')
-instance.refactorFileIntoObjects()
+console.log(instance.refactorFileIntoObjects())
 module.exports=Level3
 
